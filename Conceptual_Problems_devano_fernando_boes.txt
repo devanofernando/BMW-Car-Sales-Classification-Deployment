@@ -1,0 +1,17 @@
+Conceptual Problems
+
+1. Jelaskan latar belakang adanya bagging dan cara kerja bagging!
+Bagging (Bootstrap Aggregating) adalah merupakan ensemble yang melatih banyak model identik secara paralel pada subset data yang berbeda (dibuat dengan sampling with replacement), lalu menggabungkan prediksinya (biasanya rata-rata atau voting). Tujuannya dari bagging yaitu untuk mengurangi varians dan mencegah overfitting.
+
+2. Jelaskan perbedaan cara kerja algoritma Random Forest dengan algoritma boosting yang anda pilih!
+Random Forest:
+- Modelnya dibangun secara paralel.
+- Setiap pohon diambil dari subset data acak (bagging) dan fitur acak (feature bagging).
+- Tidak saling bergantung. Dalam artian satu pohon tidak memengaruhi pohon lainnya.
+Boosting (XGBoost):
+- Model dibangun secara berurutan.
+- Model baru belajar dari kesalahan model sebelumnya (memberi bobot yang lebih tinggi ke data yang salah diprediksi).
+- Lebih kuat dalam menangani bias, tapi rentan overfit jika tidak dituning.
+
+3. Jelaskan apa yang dimaksud dengan Cross Validation! 
+Cross Validation merupakan teknik evaluasi model dengan membagi data menjadi beberapa fold (misal 5 atau 10), lalu melatih model di sebagian fold. Setelah itu model kan dievaluasi di fold yang tersisa (proses ini diulang sampai semua fold pernah jadi test set.). Tujuannya yaitu untuk menilai performa model secara objektif tanpa overfit, serta memberikan gambaran stabil tentang akurasi/precision/recall/F1-score model.
