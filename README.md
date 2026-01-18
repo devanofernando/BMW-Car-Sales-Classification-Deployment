@@ -81,10 +81,11 @@ Kelas penjualan ( High / Low)
 
 ## Reference
 https://streamlit.io/
-
+Link : https://huggingface.co/spaces/m1schief/BMW-Car-Sales-Classification-and-Deployment
 ---
 
 **Referensi tambahan:**
 
 https://www.doktermobil.com/penyebab-harga-mobil-bekas-murah/ 
+
 
