@@ -22,9 +22,6 @@ Berisi file model terbaik yang digunakan untuk inference
 7. README.md:
 Berisi text yang berisi rubric dari tugas Milestone 2. File ini juga berisis arahan dan tugas dari Milesotone 2
 
-File lainnya:
-Mendukung proses inference, dokumentasi, dan penilaian sesuai rubrik Milestone 2.
-
 ## Problem Background
 Di dunia otomotif, memprediksi apakah suatu mobil akan menjadi penjualan tinggi (High) atau rendah (Low) sangat penting untuk pengambilan keputusan bisnis — mulai dari alokasi stok, strategi pemasaran, hingga perencanaan produksi. Dalam proyek ini, kita akan membangun model prediktif berbasis machine learning untuk mengklasifikasikan penjualan mobil BMW berdasarkan spesifikasi teknis dan kondisi pasar.
 
@@ -90,3 +87,4 @@ https://streamlit.io/
 **Referensi tambahan:**
 
 https://www.doktermobil.com/penyebab-harga-mobil-bekas-murah/ 
+
